@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+</head>
+<body aling="center" style="font-family: sans-serif;">
+	<style>
+ 			header{
+ 				padding: 3rem;
+ 				background-color: #00264d;
+ 				color:  #ffffff;
+ 				display: flex;
+   				justify-content: space-between;
+   				 align-items: center;
+ 			}
+
+ 				a{
+			font-size: 25px;
+			font-family:sans-serif;
+			color: white;
+			text-decoration: none;
+			padding: 1rem;
+
+		}
+		nav{
+			padding: 2rem;
+		}
+		input, textarea{
+			border-radius: 5px;
+		}
+
+	</style>
+		<header>
+
+			<nav align="right">
+				<a href="#">Inicio</a>
+				<a href="#">Galeria</a>
+				<a href="contacto.html">Contacto</a>
+			</nav>
+		</header>
+
+		<h1 align="center"><b>Contactanos</b></h1>
+
+			<form action="https://formsubmit.co/nathaly.rivas2027@grupoq.superate.org" method="post">
+			<div class="nombre" align="center">
+		<label>👤Nombre</label>
+		<br>
+		<input type="text" name="name" id="name" placeholder="¡Ingresa tu nombre aquí!" required style="width: 70%;">
+			</div>
+			
+			<div class="correo" align="center">
+		<label>📧Correo</label>
+		<br>
+		<input type="text" name="correo" id="correo" placeholder="¡Ingresa tu coreo aquí!" required style="width: 70%; ">
+			</div>
+		
+			<div class="mensaje" align="center">
+		<label>📨Mensaje</label>
+		<br>
+		<textarea name="message" id="message" placeholder="¡Ingresa tu mensaje!" cols="20" rows="5" style="width: 70%;"></textarea>
+			</div>
+				<table width="100%" align="center">
+					<tr>
+						<td align="center">
+							<input type="submit" value="enviar" style= "width: 40%;" align="center">
+						</td>
+					</tr>
+				</table>
+			
+
+			</form>
+		
+</body>
+</html>
